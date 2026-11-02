@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CDN Lab Origin</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 640px; margin: 40px auto; padding: 0 16px; color: #1a1a2e; }
+    li { margin: 8px 0; }
+  </style>
+</head>
+<body>
+  <h1>CDN Product Architect Lab: Origin</h1>
+  <ul>
+    <li><a href="/headers">/headers</a>: (a) echoes HTTP request headers, never cached</li>
+    <li><a href="/hello">/hello</a>: (b) custom serverless code, never cached</li>
+    <li><a href="/static/edge.png">/static/edge.png</a>: (c) image embedded in /hello, cached at the CDN</li>
+  </ul>
+</body>
+</html>

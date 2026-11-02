@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/headers", "destination": "/api/headers" },
+    { "source": "/hello", "destination": "/api/hello" }
+  ]
+}

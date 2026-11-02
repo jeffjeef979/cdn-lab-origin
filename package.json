@@ -1,0 +1,5 @@
+{
+  "name": "cdn-lab-origin",
+  "private": true,
+  "type": "module"
+}
